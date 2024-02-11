@@ -1,4 +1,4 @@
-<h1>Performing Packet Capture and Traffic Analysis</h1>
+<h1>Applying User Authentication and Access Controls</h1>
 
 <h2>Tools and Software Used</h2>
 
@@ -35,7 +35,7 @@ Project consists of using using Microsoft's Active Directory Domain Services to 
 
 <p align="center">
 Show the new users and groups in Active Directory Users and Computers: <br/>
-<img src="https://i.imgur.com/RHnjyGJ.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/FucHtGI.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
  <h2>Create Folders and Configure Security Permissions:</h2>
@@ -48,35 +48,71 @@ Show the new users and groups in Active Directory Users and Computers: <br/>
 
 <p align="center">
 Show the updated Security permissions for the HRfiles folder: <br/>
-<img src="https://i.imgur.com/7d0nd5I.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/pwIPjdA.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the updated Security permissions for the MGRfiles folder:  <br/>
-<img src="https://i.imgur.com/Asde0Rf.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/e2MJiHQ.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
-Show the SSHv2 encryption and mac selections for the SSH connection:  <br/>
-<img src="https://i.imgur.com/Hl3WgQL.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the updated Security permissions for the DEVfiles folder:  <br/>
+<img src="https://i.imgur.com/gO2icU1.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
-Show the highlighted encrypted data in the Packet Bytes pane:  <br/>
-<img src="https://i.imgur.com/yMFpc6U.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Show the passive port specified by the FTP server in the Packet Details pane:  <br/>
-<img src="https://i.imgur.com/34MYpz0.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Show the Destination Port field value in the Packet Details pane:  <br/>
-<img src="https://i.imgur.com/hFjkHSp.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the three folders within the LabFiles folder:  <br/>
+<img src="https://i.imgur.com/vlnWPJQ.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
+
+<h2>Verify Authentication and Access Controls:</h2>
+
+
+
+
+
+
+
+<p align="center">
+Show the unsuccessful access error message for the HRfiles folder as scarpenter: <br/>
+<img src="https://i.imgur.com/4L8yeyF.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the unsuccessful access error message for the MGRfiles folder as scarpenter:  <br/>
+<img src="https://i.imgur.com/eMuU9vf.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the Properties dialog box for the file created in the DEVfiles folder by scarpenter:  <br/>
+<img src="https://i.imgur.com/CHfMEaP.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the Properties dialog box for the file created in the HRfiles folder by lcasado:  <br/>
+<img src="https://i.imgur.com/3vZRrzp.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the unsuccessful access error message for the MGRfiles folder as lcasado:  <br/>
+<img src="https://i.imgur.com/u6xRvEF.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the unsuccessful access error message for the DEVfiles folder as lcasado:  <br/>
+<img src="https://i.imgur.com/3tIJH2h.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the Properties dialog box for the file created in the MGRfiles folder by cprince:  <br/>
+<img src="https://i.imgur.com/oiBbkcv.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the Properties dialog box for the file created in the DEVfiles folder by cprince:  <br/>
+<img src="https://i.imgur.com/G8Nbokk.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the unsuccessful access error message for the HRfiles folder as cprince:  <br/>
+<img src="https://i.imgur.com/tSgVenV.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
  
 
  ### Section 2
 
-<h2>Configure Wireshark and Generate Network Traffic:</h2>
+<h2>Creating an SMB Share:</h2>
 
 
 
@@ -88,19 +124,11 @@ Show the Destination Port field value in the Packet Details pane:  <br/>
 
 
 <p align="center">
-Show the sta1-wlan0 connected to the SecureLabs-WiFi network: <br/>
-<img src="https://i.imgur.com/49vAuBq.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Show the updated security mode on the Status page:  <br/>
-<img src="https://i.imgur.com/AcqhIdC.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Show the connection to the now-encrypted WLAN:  <br/>
-<img src="https://i.imgur.com/Xuqyk6u.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the Employees dataset on the TrueNAS Pools page: <br/>
+<img src="https://i.imgur.com/k1GZcWO.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
- <h2>Analyze Traffic Using Wireshark:</h2>
+ <h2>Create Shared Folders and Configure ACLs:</h2>
 
 
 
@@ -112,20 +140,32 @@ Show the connection to the now-encrypted WLAN:  <br/>
 
 
 <p align="center">
-Show the SSID and channel in the Packet Details pane: <br/>
-<img src="https://i.imgur.com/wWAr1pH.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the three new datasets on the TrueNAS Pools page: <br/>
+<img src="https://i.imgur.com/ph9LTVU.png" height="80%" width="80%" alt="Section 1 Steps"/>
+
+<h2>Verify Access Controls:</h2>
+
+
+
+
+
+
+
+
+
+
+<p align="center">
+Show the Employees folder while signed in as scarpenter: <br/>
+<img src="https://i.imgur.com/95rtwyH.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
-Show the Packet Details for the ICMP packet:  <br/>
-<img src="https://i.imgur.com/A179tO3.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the Employees folder while signed in as lcasado: <br/>
+<img src="https://i.imgur.com/laCY0D4.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
-Show the Packet Details for the HTTP packet:  <br/>
-<img src="https://i.imgur.com/VzYHDMR.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Show the key information for Message 3 in the four-way handshake:  <br/>
-<img src="https://i.imgur.com/ORj7kYF.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the Employees folder while signed in as cprince: <br/>
+<img src="https://i.imgur.com/7xkmrPF.png" height="80%" width="80%" alt="Section 1 Steps"/>
+
 
 
 
@@ -133,7 +173,7 @@ Show the key information for Message 3 in the four-way handshake:  <br/>
 
  ### Section 3
 
-<h2>Generate Malicious Network Traffic:</h2>
+<h2>Create Users and Security Groups:</h2>
 
 
 
@@ -145,12 +185,15 @@ Show the key information for Message 3 in the four-way handshake:  <br/>
 
 
 <p align="center">
-Show the aireplay-ng --deauth output: <br/>
-<img src="https://i.imgur.com/wjKfVKX.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the Member Of tab of the Properties dialog box for Abernathy Bobbleshaw: <br/>
+<img src="https://i.imgur.com/lyc3KsB.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the Member Of tab of the Properties dialog box for Leslie Wu: <br/>
+<img src="https://i.imgur.com/39PyLkx.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
-
- <h2>Analyze Malicious Network Traffic:</h2>
+ <h2>Create Shared Folders and Configure ACLs:</h2>
 
 
 
@@ -162,12 +205,29 @@ Show the aireplay-ng --deauth output: <br/>
 
 
 <p align="center">
-Show one of the deauth packets that you generated between the BSSID and your selected station: <br/>
-<img src="https://i.imgur.com/cmimqDJ.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the new GG Studios datasets on the TrueNAS Pools page: <br/>
+<img src="https://i.imgur.com/2yXHPHl.png" height="80%" width="80%" alt="Section 1 Steps"/>
+
+
+<h2>Verify Authentication and Access Controls:</h2>
+
+
+
+
+
+
+
+
+
+
+<p align="center">
+Show the Employees folder while signed in as abobbleshaw: <br/>
+<img src="https://i.imgur.com/HtnOD9A.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
-Show the packets related to the four-way handshake:  <br/>
-<img src="https://i.imgur.com/SoaaGZ3.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the Employees folder while signed in as lwu: <br/>
+<img src="https://i.imgur.com/Z1nF3Es.png" height="80%" width="80%" alt="Section 1 Steps"/>
+
 
 
 
