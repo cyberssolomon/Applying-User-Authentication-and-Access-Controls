@@ -125,7 +125,7 @@ Show the unsuccessful access error message for the HRfiles folder as cprince:  <
 
 <p align="center">
 Show the Employees dataset on the TrueNAS Pools page: <br/>
-<img src="https://i.imgur.com/k1GZcWO.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/k1GZcWO.png" height="80%" width="80%" alt="Section 2 Steps"/>
 
 
  <h2>Create Shared Folders and Configure ACLs:</h2>
@@ -141,7 +141,7 @@ Show the Employees dataset on the TrueNAS Pools page: <br/>
 
 <p align="center">
 Show the three new datasets on the TrueNAS Pools page: <br/>
-<img src="https://i.imgur.com/ph9LTVU.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/ph9LTVU.png" height="80%" width="80%" alt="Section 2 Steps"/>
 
 <h2>Verify Access Controls:</h2>
 
@@ -156,15 +156,15 @@ Show the three new datasets on the TrueNAS Pools page: <br/>
 
 <p align="center">
 Show the Employees folder while signed in as scarpenter: <br/>
-<img src="https://i.imgur.com/95rtwyH.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/95rtwyH.png" height="80%" width="80%" alt="Section 2 Steps"/>
 <br />
 <br />
 Show the Employees folder while signed in as lcasado: <br/>
-<img src="https://i.imgur.com/laCY0D4.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/laCY0D4.png" height="80%" width="80%" alt="Section 2 Steps"/>
 <br />
 <br />
 Show the Employees folder while signed in as cprince: <br/>
-<img src="https://i.imgur.com/7xkmrPF.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/7xkmrPF.png" height="80%" width="80%" alt="Section 2 Steps"/>
 
 
 
@@ -186,11 +186,11 @@ Show the Employees folder while signed in as cprince: <br/>
 
 <p align="center">
 Show the Member Of tab of the Properties dialog box for Abernathy Bobbleshaw: <br/>
-<img src="https://i.imgur.com/lyc3KsB.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/lyc3KsB.png" height="80%" width="80%" alt="Section 3 Steps"/>
 <br />
 <br />
 Show the Member Of tab of the Properties dialog box for Leslie Wu: <br/>
-<img src="https://i.imgur.com/39PyLkx.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/39PyLkx.png" height="80%" width="80%" alt="Section 3 Steps"/>
 
 
  <h2>Create Shared Folders and Configure ACLs:</h2>
@@ -206,7 +206,7 @@ Show the Member Of tab of the Properties dialog box for Leslie Wu: <br/>
 
 <p align="center">
 Show the new GG Studios datasets on the TrueNAS Pools page: <br/>
-<img src="https://i.imgur.com/2yXHPHl.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/2yXHPHl.png" height="80%" width="80%" alt="Section 3 Steps"/>
 
 
 <h2>Verify Authentication and Access Controls:</h2>
@@ -222,11 +222,11 @@ Show the new GG Studios datasets on the TrueNAS Pools page: <br/>
 
 <p align="center">
 Show the Employees folder while signed in as abobbleshaw: <br/>
-<img src="https://i.imgur.com/HtnOD9A.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/HtnOD9A.png" height="80%" width="80%" alt="Section 3 Steps"/>
 <br />
 <br />
 Show the Employees folder while signed in as lwu: <br/>
-<img src="https://i.imgur.com/Z1nF3Es.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/Z1nF3Es.png" height="80%" width="80%" alt="Section 3 Steps"/>
 
 
 
